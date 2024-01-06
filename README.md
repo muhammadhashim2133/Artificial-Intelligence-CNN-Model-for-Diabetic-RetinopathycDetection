@@ -44,17 +44,7 @@ All of the images are already saved into their respective folders according to t
 
 2. **Proliferative Diabetic Retinopathy:** A more serious stage where abnormal blood vessels grow, leading to potential complications like bleeding, scar tissue formation, and tractional retinal detachment.
 
-## CNN Training
 
-To train the CNN model for diabetic retinopathy detection:
-
-1. **Dataset:** Utilize the provided dataset of resized retina scan images.
-
-2. **Normalization:** Ensure pixel values are normalized between 0 and 1.
-
-3. **Training Script:** Use the provided training script (`train_model.py` or a similar file) to train the CNN model.
-
-4. **Inference:** After training, use the model to make predictions on new images with the provided inference script (`predict.py`).
 
 Feel free to experiment with the model architecture, fine-tune on additional datasets, and explore deployment options for real-world applications.
 
